@@ -38,16 +38,80 @@ assetsSummary:
   - ProcessingModule
   - ElectrodeGroup
   - BehavioralEvents
-citation: Hohenheim, Jan (2023) Dataset of human medial temporal lobe neurons during
+citation: Boran, Ece; Hilfiker, Peter; Stieglitz, Lennart ; Hohenheim, Jan; Sarnthein,
+  Johannes ; Klaver, Peter (2023) Dataset of human medial temporal lobe neurons during
   a visual working memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000575/draft
 contributor:
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Department of Neurosurgery, University Hospital Zurich (USZ), University
+      of Zurich, Zurich 8091, Switzerland
+    schemaKey: Affiliation
+  identifier: 0000-0002-0395-7575
+  includeInCitation: true
+  name: Boran, Ece
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-7729-4754
+  includeInCitation: true
+  name: Hilfiker, Peter
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Department of Neurosurgery, University Hospital Zurich (USZ), University
+      of Zurich, Zurich 8091, Switzerland
+    schemaKey: Affiliation
+  identifier: 0000-0002-3744-5105
+  includeInCitation: true
+  name: 'Stieglitz, Lennart '
+  roleName: []
+  schemaKey: Person
 - affiliation: []
   email: jan@hohenheim.ch
+  identifier: 0000-0001-9436-8348
   includeInCitation: true
   name: Hohenheim, Jan
   roleName:
   - dcite:ContactPerson
+  - dcite:DataManager
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Department of Neurosurgery, University Hospital Zurich (USZ), University
+      of Zurich, Zurich 8091, Switzerland.
+    schemaKey: Affiliation
+  - identifier: https://ror.org/01462r250
+    name: Neuroscience Center Zurich, ETH Zurich, Zurich 8057, Switzerland
+    schemaKey: Affiliation
+  email: johannes.sarnthein@usz.ch
+  identifier: 0000-0001-9141-381X
+  includeInCitation: true
+  name: 'Sarnthein, Johannes '
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00w9q2c06
+    name: University of Teacher Education in Special Needs, Zurich 8050, Switzerland.
+    schemaKey: Affiliation
+  - identifier: https://ror.org/02crff812
+    name: Institute of Psychology, University of Zurich, Zurich 8050, Switzerland
+    schemaKey: Affiliation
+  - identifier: https://ror.org/00ks66431
+    name: School of Psychology, University of Surrey, Guildford GU2 7XH, UK
+    schemaKey: Affiliation
+  email: peter.klaver@hfh.ch
+  identifier: 0000-0002-6541-9975
+  includeInCitation: true
+  name: Klaver, Peter
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: ''
 dateCreated: '2023-07-04T17:07:21.531429+00:00'
 description: We present an electrophysiological dataset recorded from thirteen subjects
   during a visual working memory task. Subjects were epilepsy patients undergoing
