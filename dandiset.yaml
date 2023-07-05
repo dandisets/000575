@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000575
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -54,16 +55,42 @@ description: We present an electrophysiological dataset recorded from thirteen s
   single neuron firing in 13 epilepsy patients (7 male) while they performed a visual
   working memory task. The number of colored squares in the stimulus set determined
   the workload of the trial.
+ethicsApproval: []
 id: DANDI:000575/draft
 identifier: DANDI:000575
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000575/versions/draft/assets/
 name: Dataset of human medial temporal lobe neurons during a visual working memory
   task
+protocol: []
+relatedResource:
+- identifier: Human_MTL_units_visual_WM
+  name: Dataset of human medial temporal lobe neurons during a visual working memory
+    task
+  relation: dcite:IsVariantFormOf
+  repository: G-Node
+  schemaKey: Resource
+  url: https://gin.g-node.org/USZ_NCH/Human_MTL_units_visual_WM
+- identifier: usz-neuro-conversion
+  name: USZ Neuro Conversion
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/janhohenheim/usz-neuro-conversion
+- identifier: 10.1016/j.neuroimage.2022.119123
+  name: Persistent neuronal firing in the medial temporal lobe supports performance
+    and workload of visual working memory in humans
+  relation: dcite:IsSupplementTo
+  repository: NeuroImage
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuroimage.2022.119123
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000575/draft
 version: draft
+wasGeneratedBy: []
