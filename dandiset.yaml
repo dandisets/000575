@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 19185798
-  numberOfFiles: 16
+  numberOfBytes: 23228640
+  numberOfFiles: 18
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
@@ -95,7 +95,7 @@ contributor:
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00w9q2c06
-    name: University of Teacher Education in Special Needs, Zurich 8050, Switzerland.
+    name: University of Teacher Education in Special Needs, Zurich 8050, Switzerland
     schemaKey: Affiliation
   - identifier: https://ror.org/02crff812
     name: Institute of Psychology, University of Zurich, Zurich 8050, Switzerland
@@ -111,7 +111,6 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-  url: ''
 dateCreated: '2023-07-04T17:07:21.531429+00:00'
 description: We present an electrophysiological dataset recorded from thirteen subjects
   during a visual working memory task. Subjects were epilepsy patients undergoing
