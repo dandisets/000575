@@ -38,9 +38,9 @@ assetsSummary:
   - ProcessingModule
   - ElectrodeGroup
   - BehavioralEvents
-citation: Boran, Ece; Hilfiker, Peter; Stieglitz, Lennart ; Hohenheim, Jan; Sarnthein,
-  Johannes ; Klaver, Peter (2023) Dataset of human medial temporal lobe neurons during
-  a visual working memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000575/draft
+citation: Boran, Ece; Hilfiker, Peter; Stieglitz, Lennart ; Hohenheim, Jan; Klaver,
+  Peter; Sarnthein, Johannes  (2023) Dataset of human medial temporal lobe neurons
+  during a visual working memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000575/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -78,22 +78,6 @@ contributor:
   - dcite:DataManager
   schemaKey: Person
 - affiliation:
-  - identifier: https://ror.org/01462r250
-    name: Department of Neurosurgery, University Hospital Zurich (USZ), University
-      of Zurich, Zurich 8091, Switzerland.
-    schemaKey: Affiliation
-  - identifier: https://ror.org/01462r250
-    name: Neuroscience Center Zurich, ETH Zurich, Zurich 8057, Switzerland
-    schemaKey: Affiliation
-  email: johannes.sarnthein@usz.ch
-  identifier: 0000-0001-9141-381X
-  includeInCitation: true
-  name: 'Sarnthein, Johannes '
-  roleName:
-  - dcite:Author
-  - dcite:ContactPerson
-  schemaKey: Person
-- affiliation:
   - identifier: https://ror.org/00w9q2c06
     name: University of Teacher Education in Special Needs, Zurich 8050, Switzerland
     schemaKey: Affiliation
@@ -111,13 +95,45 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01462r250
+    name: Department of Neurosurgery, University Hospital Zurich (USZ), University
+      of Zurich, Zurich 8091, Switzerland.
+    schemaKey: Affiliation
+  - identifier: https://ror.org/01462r250
+    name: Neuroscience Center Zurich, ETH Zurich, Zurich 8057, Switzerland
+    schemaKey: Affiliation
+  email: johannes.sarnthein@usz.ch
+  identifier: 0000-0001-9141-381X
+  includeInCitation: true
+  name: 'Sarnthein, Johannes '
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2023-07-04T17:07:21.531429+00:00'
-description: We present an electrophysiological dataset recorded from thirteen subjects
+description: 'We present an electrophysiological dataset recorded from thirteen subjects
   during a visual working memory task. Subjects were epilepsy patients undergoing
-  intracranial monitoring for localization of epileptic seizures. . Here, we recorded
+  intracranial monitoring for localization of epileptic seizures. Here, we recorded
   single neuron firing in 13 epilepsy patients (7 male) while they performed a visual
-  working memory task. The number of colored squares in the stimulus set determined
-  the workload of the trial.
+  working memory task. The task is a change detection task designed to examine the
+  visual working memory of subjects. In each trial, arrays of colored squares were
+  presented and had to be memorized. The number of squares determined the set size:
+  1, 2, 4 or 6. There was a total 192 trials per session. Each trial started with
+  a warning signal (0.4 s) that was a red fixation dot. The fixation dot was then
+  changed to black (0.4 – 0.5 s, jittered). A memory array (encoding period, 0.8 s)
+  was followed by a delay (retention interval, 0.9 s). After the delay, a test array
+  was shown (2 s) followed by a jittered inter-trial interval of 1.3 to 2.3 s. The
+  participants indicated by button press (“Same” or “Different”, forced choice) whether
+  the test array differed from the memory array. If the arrays differed, only one
+  square changed in colour, but all squares remained on the same location. The fixation
+  dot was visible on the screen during the whole trial period. Eight different colours
+  were used for the memory and test array (yellow, red, green, blue, magenta, cyan,
+  grey, black). Before starting the sessions, participants conducted trial runs in
+  a practice session to learn the task. In this session we verified if participants
+  were colour-blind and could discriminate all colours. Practice sessions were repeated
+  until the participant understood the task and was able to follow the pace of the
+  trials.'
 ethicsApproval: []
 id: DANDI:000575/draft
 identifier: DANDI:000575
