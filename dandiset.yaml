@@ -166,6 +166,13 @@ relatedResource:
   repository: NeuroImage
   schemaKey: Resource
   url: https://doi.org/10.1016/j.neuroimage.2022.119123
+- identifier: Visual working memory task with change detection (forced choice) on
+    the matching of coloured squares.
+  name: Presentation Files
+  relation: dcite:IsSupplementedBy
+  repository: Neurobehavioral Systems
+  schemaKey: Resource
+  url: https://www.neurobs.com/ex_files/expt_view?id=285
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
