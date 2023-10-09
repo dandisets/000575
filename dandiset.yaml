@@ -46,7 +46,7 @@ assetsSummary:
   - ElectricalSeries
 citation: Boran, Ece; Hilfiker, Peter; Stieglitz, Lennart ; Hohenheim, Jan; Klaver,
   Peter; Sarnthein, Johannes  (2023) Dataset of human medial temporal lobe neurons
-  during a visual working memory task (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  during a visual working memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000575/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -127,8 +127,17 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
   url: http://www.snf.ch/en
+- awardNumber: '2586'
+  contactPoint: []
+  email: communications@kavlifoundation.org
+  identifier: https://ror.org/00kztt736
+  includeInCitation: false
+  name: ' The Kavli Foundation'
+  roleName:
+  - dcite:Sponsor
+  schemaKey: Organization
+  url: https://www.kavlifoundation.org/
 dateCreated: '2023-07-04T17:07:21.531429+00:00'
-datePublished: '2023-08-10T00:17:29.167767+00:00'
 description: 'We present an electrophysiological dataset recorded from thirteen subjects
   during a visual working memory task. Subjects were epilepsy patients undergoing
   intracranial monitoring for localization of epileptic seizures. Here, we recorded
@@ -151,7 +160,6 @@ description: 'We present an electrophysiological dataset recorded from thirteen 
   were colour-blind and could discriminate all colours. Practice sessions were repeated
   until the participant understood the task and was able to follow the pace of the
   trials.'
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000575/draft
 identifier: DANDI:000575
@@ -163,18 +171,6 @@ manifestLocation:
 name: Dataset of human medial temporal lobe neurons during a visual working memory
   task
 protocol: []
-publishedBy:
-  endDate: '2023-08-10T00:17:29.167767+00:00'
-  id: urn:uuid:2e1a2072-b2ef-49ab-8408-874e1d7863ff
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-08-10T00:17:29.167767+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:8a9954eb-f8ed-464d-a84a-50d1d43b3b2c
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: Human_MTL_units_visual_WM
   name: Dataset of human medial temporal lobe neurons during a visual working memory
@@ -203,6 +199,12 @@ relatedResource:
   repository: Neurobehavioral Systems
   schemaKey: Resource
   url: https://www.neurobs.com/ex_files/expt_view?id=285
+- identifier: nwb-example
+  name: Example Reading Code
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  schemaKey: Resource
+  url: https://github.com/janhohenheim/nwb-example
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
