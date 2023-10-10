@@ -29,9 +29,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 34389707079
-  numberOfFiles: 15
-  numberOfSubjects: 11
+  numberOfBytes: 44196026110
+  numberOfFiles: 17
+  numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
