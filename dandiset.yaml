@@ -29,9 +29,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 44196026110
-  numberOfFiles: 17
-  numberOfSubjects: 12
+  numberOfBytes: 50794717628
+  numberOfFiles: 18
+  numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -46,7 +46,8 @@ assetsSummary:
   - ElectricalSeries
 citation: Boran, Ece; Hilfiker, Peter; Stieglitz, Lennart ; Hohenheim, Jan; Klaver,
   Peter; Sarnthein, Johannes  (2023) Dataset of human medial temporal lobe neurons
-  during a visual working memory task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000575/draft
+  during a visual working memory task (Version 0.231010.1811) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000575/0.231010.1811
 contributor:
 - affiliation:
   - identifier: https://ror.org/01462r250
@@ -162,13 +163,13 @@ description: 'We present an electrophysiological dataset recorded from thirteen 
   until the participant understood the task and was able to follow the pace of the
   trials.'
 ethicsApproval: []
-id: DANDI:000575/draft
+id: DANDI:000575/0.231010.1811
 identifier: DANDI:000575
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000575/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000575/0.231010.1811/assets.yaml
 name: Dataset of human medial temporal lobe neurons during a visual working memory
   task
 protocol: []
@@ -222,6 +223,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000575/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000575/0.231010.1811
+version: 0.231010.1811
 wasGeneratedBy: []
