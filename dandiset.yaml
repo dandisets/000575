@@ -138,6 +138,7 @@ contributor:
   schemaKey: Organization
   url: https://www.kavlifoundation.org/
 dateCreated: '2023-07-04T17:07:21.531429+00:00'
+datePublished: '2023-10-10T18:11:40.305685+00:00'
 description: 'We present an electrophysiological dataset recorded from thirteen subjects
   during a visual working memory task. Subjects were epilepsy patients undergoing
   intracranial monitoring for localization of epileptic seizures. Here, we recorded
@@ -171,6 +172,18 @@ manifestLocation:
 name: Dataset of human medial temporal lobe neurons during a visual working memory
   task
 protocol: []
+publishedBy:
+  endDate: '2023-10-10T18:11:40.305685+00:00'
+  id: urn:uuid:b959e7a2-93ad-4704-8d22-1d3df7b4a905
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-10-10T18:11:40.305685+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:72183488-18c0-4da2-8dd8-a3a6dc42c33f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: Human_MTL_units_visual_WM
   name: Dataset of human medial temporal lobe neurons during a visual working memory
